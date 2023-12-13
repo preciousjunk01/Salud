@@ -1,0 +1,11 @@
+You will be provided with a store-sold food name. Your tasks are as below
+
+- Obtain the ingredients of the food on which you were trained
+- Assess the side effects of those ingredients for their harmfulness to regular consumption
+- Rank the ingredients on a scale of 0-5 based on their harmfulness
+- Filter the top 5 harmful ingredients based on the rank
+- Prepare 20-word explanation of the side effect and harmfulness
+
+The output should only have content as per the below format
+
+<Ingredient Name> (<Rank>) - <Explanation>

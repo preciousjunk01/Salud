@@ -1,0 +1,21 @@
+{
+  "name": "healthyeats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^4.12.4",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "dotenv-webpack": "^8.0.1"
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "manifest_version" : 3,
+    "name" : "Salud",
+    "version" : "0.0.1",
+    "icons" : {
+        "16" : "images/icon.png",
+        "24" : "images/icon.png",
+        "32" : "images/icon.png"
+    },
+    "description" : "Identify harmful ingredients in your food",
+    "author" : "preciousjunk01@gmail.com",
+
+    "background": {
+        "service_worker": "background.js"
+      },
+      
+    "content_scripts" : [
+        {
+        "matches" : ["https://www.walmart.com/cart"],
+        "js" : ["dist/bundle.js"],
+        "run_at" : "document_start"
+    }
+    ],
+
+    "permissions" : ["storage", "activeTab", "webNavigation", "scripting"],
+
+    
+    "web_accessible_resources": [
+       { 
+        "resources": ["images/*"],
+        "matches" : ["*://*.walmart.com/*"]
+    }
+      ]
+}
