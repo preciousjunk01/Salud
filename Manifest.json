@@ -22,8 +22,13 @@
     }
     ],
 
-    "permissions" : ["storage", "activeTab", "webNavigation", "scripting"],
+    "permissions" : ["storage", "activeTab", "webNavigation", "scripting", "tabs"],
 
+    "host_permissions": [
+        "https://www.walmart.com/cart"
+    ],
+
+    "options_page": "options.html",
     
     "web_accessible_resources": [
        { 
