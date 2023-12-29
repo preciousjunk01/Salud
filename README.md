@@ -1,14 +1,21 @@
 # Salud
 ## Mission
  Make People eat healthier, shop smarter: Transform the buying habits for better food choices
+## What does this extension do?
+This extension extracts the product information from the carts page, utilizes LLM to find harmful ingredients, and explains their harmful effects. The number next to the ingredient indicates the harmfulness rated out of 5.
+
+More features to come...
+
+### Screenshot
+<img width="911" alt="image" src="https://github.com/preciousjunk01/Salud/assets/152945777/27fbfc29-694f-410e-b7f7-29a560994d11">
+
 ## How
 1. Download the Extension from the link --> Publishing pending (OR) Download the repo as zip file and follow the instructions in FAQ to load a chrome extension
 2. Enter the OpenAI API Key in the Extension's options page and press "Save"
 3. Navigate to the supported site's cart page
 4. Hover over the Info Icon near the product name to know and learn about harmful ingredients
 
-### Screenshot
-<img width="911" alt="image" src="https://github.com/preciousjunk01/Salud/assets/152945777/27fbfc29-694f-410e-b7f7-29a560994d11">
+
 
 
 ## Supported Site
