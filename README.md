@@ -2,7 +2,7 @@
 ## Mission
  Make People eat healthier, shop smarter: Transform the buying habits for better food choices
 ## What does this extension do?
-This extension extracts the product information from the carts page, utilizes LLM to find harmful ingredients, and explains their harmful effects. The number next to the ingredient indicates the harmfulness rated out of 5.
+This extension quickly identifies harmful ingredients in products in your cart using the Large Language Model (LLM) and rates their harmfulness out of 5. Just hover over the info icon next to each product for instant insights into what's really in your food.
 
 More features to come...
 
