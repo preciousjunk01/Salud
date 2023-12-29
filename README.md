@@ -1,8 +1,8 @@
 # Salud
 ## Mission
  Make People eat healthier, shop smarter: Transform the buying habits for better food choices
-## What does this extension do?
-This extension quickly identifies harmful ingredients in products in your cart using the Large Language Model (LLM) and rates their harmfulness out of 5. Just hover over the info icon next to each product for instant insights into what's really in your food.
+## What is this thing?
+This is a chrome extension that quickly identifies harmful ingredients in products in your cart using the Large Language Model (LLM) and rates their harmfulness out of 5. Just hover over the info icon next to each product for instant insights into what's really in your food.
 
 More features to come...
 
