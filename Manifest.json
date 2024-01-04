@@ -22,7 +22,7 @@
     }
     ],
 
-    "permissions" : ["storage", "activeTab", "scripting", "tabs"],
+    "permissions" : ["storage", "scripting", "tabs"],
 
     "host_permissions": [
         "https://www.walmart.com/cart"
